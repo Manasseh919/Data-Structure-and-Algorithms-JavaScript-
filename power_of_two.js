@@ -1,4 +1,16 @@
-function powerOfTwo(n) {
+function isPowerOfTwoBitwise(n) {
+  if (n < 1) {
+    return false;
+  }
+  return (n & (n - 1)) === 0;
+}
+
+console.log(isPowerOfTwoBitwise(4))
+
+//Big-O = O(1)
+
+
+/* function powerOfTwo(n) {
   if (n < 1) {
     return false;
   }
@@ -12,6 +24,6 @@ function powerOfTwo(n) {
 }
 
 console.log(powerOfTwo(2))
-
+ */
 
 //Big-O = O(log(n))

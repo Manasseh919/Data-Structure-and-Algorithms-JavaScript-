@@ -8,3 +8,6 @@ function Fibonacci(n){
 }
 
 console.log(Fibonacci(4))
+
+
+//Big-O = O(n)

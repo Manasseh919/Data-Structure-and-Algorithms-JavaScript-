@@ -11,3 +11,5 @@ function Factorial(n){
 
 
 console.log(Factorial(5))
+
+//Big-O = O(n)
